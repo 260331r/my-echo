@@ -1,7 +1,7 @@
 NAME := my-echo
 REPOSITORY := 260331r/$(NAME)
 TAG := 0.1
-GOOS := linux
+GOOS := darwin
 GOARCH := amd64
 
 .PHONY: build test image-build image-push clean
